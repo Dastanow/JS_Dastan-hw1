@@ -16,11 +16,9 @@ function compareNumbers(num1, num2) {
     }
   }
   
-  // Пример использования функции
-  console.log(compareNumbers(5, 3)); // Второе число больше
-  console.log(compareNumbers(2, 5)); // Первое число больше
-  console.log(compareNumbers(4, 4)); // Числа равны
-// ----------3
+  console.log(compareNumbers(5, 3)); 
+  console.log(compareNumbers(2, 5)); 
+  console.log(compareNumbers(4, 4)); 
 function pedestrianAction(color) {
     if (color === "green") {
       return "Идти";
